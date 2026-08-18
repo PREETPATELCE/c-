@@ -1,0 +1,96 @@
+Code :- 
+index . html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Wireframe Skeletons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="wireframe-box">
+        <div class="logo-placeholder">CHARUSAT LOGO</div>
+        <nav class="nav-placeholder">(dashboard | student portal  |result |attendance  | Login)</nav>
+    </header>
+
+    
+    <main class="container">
+        <aside class="sidebar wireframe-box">
+            <h3>student profile</h3>
+            <div class="line-placeholder"></div>
+            <div class="line-placeholder"></div>
+        </aside>
+
+        <section class="content-grid">
+            <div class="card wireframe-box">dash board  </div>
+            <div class="card wireframe-box"> student portal  </div>
+            <div class="card wireframe-box"> result </div>
+            <div class="card wireframe-box"> attendance </div>
+            <div class="card wireframe-box">login</div>
+        </section>
+    </main>
+
+    
+    <footer class="wireframe-box">
+        <p>© 2026 Project Wireframe Template. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+styles.css
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.wireframe-box {
+    border: 2px dashed #777;
+    background-color: #eaeaea;
+    text-align: center;
+    color: #555;
+    padding: 20px;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+}
+
+.sidebar {
+    width: 25%;
+    height: 300px;
+}
+
+.content-grid {
+    display: flex;
+    width: 75%;
+    gap: 10px;
+}
+
+.card {
+    flex: 1;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line-placeholder {
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
